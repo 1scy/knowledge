@@ -1,14 +1,14 @@
 import { sidebar } from "vuepress-theme-hope";
 
 import { aboutTheAuthor } from "./about-the-author.js";
-import { books } from "./books.js";
+import { enacts } from "./enacts.js";
 import { highQualityTechnicalArticles } from "./high-quality-technical-articles.js";
 import { openSourceProject } from "./open-source-project.js";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
   "/open-source-project/": openSourceProject,
-  "/books/": books,
+  "/enact/": enacts,
   "/about-the-author/": aboutTheAuthor,
   "/high-quality-technical-articles/": highQualityTechnicalArticles,
   "/zhuanlan/": [

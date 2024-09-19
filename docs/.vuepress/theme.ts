@@ -10,8 +10,10 @@ export default hopeTheme({
   hostname: "https://javaguide.cn/",
   logo: "/logo.png",
   favicon: "/favicon.ico",
+  iconPrefix: "",
+  iconAssets: "iconify",
 
-  iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
+  // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
 
   author: {
     name: "Guide",
