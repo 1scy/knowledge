@@ -1,4 +1,4 @@
-> 全局搜索**hopeTheme**
+> 全局搜索**hopeTheme** [需要的图标](https://icon-sets.iconify.design/logos/)
 
 
 ```
@@ -9,5 +9,3 @@ export default hopeTheme({
   // ...省略
 });
 ```
-
-> [需要的图标](https://icon-sets.iconify.design/logos/)

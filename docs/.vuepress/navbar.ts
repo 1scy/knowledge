@@ -5,9 +5,9 @@ export default navbar([
   { text: "开源项目", icon: "github", link: "/open-source-project/" },
   { text: "技术碎片", icon: "logos:bigpanda", link: "/enact/" },
   {
-    text: "程序人生",
-    icon: "article",
-    link: "/high-quality-technical-articles/",
+    text: "技能掌握",
+    icon: "logos:feathersjs",
+    link: "/ability/",
   },
   {
     text: "知识星球",

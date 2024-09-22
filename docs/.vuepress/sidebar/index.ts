@@ -2,7 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 import { aboutTheAuthor } from "./about-the-author.js";
 import { enacts } from "./enacts.js";
-import { highQualityTechnicalArticles } from "./high-quality-technical-articles.js";
+import { abilitys } from "./abilitys.js";
 import { openSourceProject } from "./open-source-project.js";
 
 export default sidebar({
@@ -10,7 +10,7 @@ export default sidebar({
   "/open-source-project/": openSourceProject,
   "/enact/": enacts,
   "/about-the-author/": aboutTheAuthor,
-  "/high-quality-technical-articles/": highQualityTechnicalArticles,
+  "/ability/": abilitys,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",
