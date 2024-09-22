@@ -7,7 +7,7 @@ import sidebar from "./sidebar/index.js";
 const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
-  hostname: "https://javaguide.cn/",
+  hostname: "https://www.chengxuyuandusu.icu/",
   logo: "/logo.png",
   favicon: "/favicon.ico",
   iconPrefix: "",
@@ -16,11 +16,11 @@ export default hopeTheme({
   // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
 
   author: {
-    name: "Guide",
-    url: "https://javaguide.cn/article/",
+    name: "DuSu",
+    url: "https://www.chengxuyuandusu.icu/",
   },
 
-  repo: "https://github.com/Snailclimb/JavaGuide",
+  // repo: "https://github.com/Snailclimb/JavaGuide",
   docsDir: "docs",
   // 纯净模式：https://theme-hope.vuejs.press/zh/guide/interface/pure.html
   pure: true,
@@ -69,11 +69,11 @@ export default hopeTheme({
     blog: true,
 
     copyright: {
-      author: "JavaGuide(javaguide.cn)",
+      author: "DuSuGuide(chengxuyuandusu.icu)",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
-      canonical: "https://javaguide.cn/",
+      canonical: "https://www.chengxuyuandusu.icu/",
       global: true,
     },
 
