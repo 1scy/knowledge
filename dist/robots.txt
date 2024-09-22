@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://javaguide.cn/sitemap.xml
+Sitemap: https://www.chengxuyuandusu.icu/sitemap.xml

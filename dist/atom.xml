@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://javaguide.cn/atom.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://www.chengxuyuandusu.icu/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-  <id>https://javaguide.cn/</id>
-  <title>JavaGuide</title>
+  <id>https://www.chengxuyuandusu.icu/</id>
+  <title>DuSuGuide</title>
   <subtitle>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </subtitle>
-  <icon>https://javaguide.cn/favicon.ico</icon>
-  <updated>2024-09-22T09:11:04.478Z</updated>
+  <icon>https://www.chengxuyuandusu.icu/favicon.ico</icon>
+  <updated>2024-09-22T10:52:11.572Z</updated>
   <generator>@vuepress/plugin-feed</generator>
-  <link rel="self" href="https://javaguide.cn/atom.xml"/>
-  <link rel="alternate" href="https://javaguide.cn/"/>
+  <link rel="self" href="https://www.chengxuyuandusu.icu/atom.xml"/>
+  <link rel="alternate" href="https://www.chengxuyuandusu.icu/"/>
   <entry>
     <title type="text"></title>
-    <id>https://javaguide.cn/enact/modify.html</id>
-    <link href="https://javaguide.cn/enact/modify.html"/>
+    <id>https://www.chengxuyuandusu.icu/enact/modify.html</id>
+    <link href="https://www.chengxuyuandusu.icu/enact/modify.html"/>
     <updated>2024-09-22T08:10:49.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>全局搜索<strong>hopeTheme</strong></p>
