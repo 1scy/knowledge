@@ -1,0 +1,21 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "JavaGuide",
+  "home_page_url": "https://javaguide.cn/",
+  "feed_url": "https://javaguide.cn/feed.json",
+  "description": "「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  ",
+  "favicon": "https://javaguide.cn/favicon.ico",
+  "items": [
+    {
+      "title": "",
+      "url": "https://javaguide.cn/enact/modify.html",
+      "id": "https://javaguide.cn/enact/modify.html",
+      "summary": "全局搜索hopeTheme 需要的图标",
+      "content_html": "<blockquote>\n<p>全局搜索<strong>hopeTheme</strong></p>\n</blockquote>\n<div class=\"language-text\" data-ext=\"text\" data-title=\"text\"><pre class=\"language-text\"><code>export default hopeTheme({\n  // ...省略\n  iconPrefix: \"\",\n  iconAssets: \"iconify\",\n  // ...省略\n});\n</code></pre></div><blockquote>\n<p><a href=\"https://icon-sets.iconify.design/logos/\" target=\"_blank\" rel=\"noopener noreferrer\">需要的图标</a></p>\n</blockquote>\n",
+      "date_published": "2024-09-19T06:03:48.000Z",
+      "date_modified": "2024-09-22T08:10:49.000Z",
+      "authors": [],
+      "tags": []
+    }
+  ]
+}

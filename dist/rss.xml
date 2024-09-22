@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://javaguide.cn/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://javaguide.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>JavaGuide</title>
+    <link>https://javaguide.cn/</link>
+    <description>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </description>
+    <language>zh-CN</language>
+    <pubDate>Sun, 22 Sep 2024 09:11:04 GMT</pubDate>
+    <lastBuildDate>Sun, 22 Sep 2024 09:11:04 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title></title>
+      <link>https://javaguide.cn/enact/modify.html</link>
+      <guid>https://javaguide.cn/enact/modify.html</guid>
+      <source url="https://javaguide.cn/rss.xml"></source>
+      <description>全局搜索hopeTheme 需要的图标</description>
+      <pubDate>Thu, 19 Sep 2024 06:03:48 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>全局搜索<strong>hopeTheme</strong></p>
+</blockquote>
+<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
+  // ...省略
+  iconPrefix: "",
+  iconAssets: "iconify",
+  // ...省略
+});
+</code></pre></div><blockquote>
+<p><a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
+</blockquote>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

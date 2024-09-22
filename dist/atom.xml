@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://javaguide.cn/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <id>https://javaguide.cn/</id>
+  <title>JavaGuide</title>
+  <subtitle>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </subtitle>
+  <icon>https://javaguide.cn/favicon.ico</icon>
+  <updated>2024-09-22T09:11:04.478Z</updated>
+  <generator>@vuepress/plugin-feed</generator>
+  <link rel="self" href="https://javaguide.cn/atom.xml"/>
+  <link rel="alternate" href="https://javaguide.cn/"/>
+  <entry>
+    <title type="text"></title>
+    <id>https://javaguide.cn/enact/modify.html</id>
+    <link href="https://javaguide.cn/enact/modify.html"/>
+    <updated>2024-09-22T08:10:49.000Z</updated>
+    <summary type="html"><![CDATA[<blockquote>
+<p>全局搜索<strong>hopeTheme</strong></p>
+</blockquote>
+<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
+  // ...省略
+  iconPrefix: "",
+  iconAssets: "iconify",
+  // ...省略
+});
+</code></pre></div><blockquote>
+<p><a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
+</blockquote>]]></summary>
+    <content type="html"><![CDATA[<blockquote>
+<p>全局搜索<strong>hopeTheme</strong></p>
+</blockquote>
+<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
+  // ...省略
+  iconPrefix: "",
+  iconAssets: "iconify",
+  // ...省略
+});
+</code></pre></div><blockquote>
+<p><a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
+</blockquote>
+]]></content>
+    <published>2024-09-19T06:03:48.000Z</published>
+  </entry>
+</feed>
