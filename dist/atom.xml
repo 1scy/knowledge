@@ -4,40 +4,53 @@
   <title>DuSuGuide</title>
   <subtitle>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </subtitle>
   <icon>https://www.chengxuyuandusu.icu/favicon.ico</icon>
-  <updated>2024-09-22T10:52:11.572Z</updated>
+  <updated>2024-09-28T08:49:19.153Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.chengxuyuandusu.icu/atom.xml"/>
   <link rel="alternate" href="https://www.chengxuyuandusu.icu/"/>
   <entry>
     <title type="text"></title>
-    <id>https://www.chengxuyuandusu.icu/enact/modify.html</id>
-    <link href="https://www.chengxuyuandusu.icu/enact/modify.html"/>
-    <updated>2024-09-22T08:10:49.000Z</updated>
+    <id>https://www.chengxuyuandusu.icu/ability/arthas.html</id>
+    <link href="https://www.chengxuyuandusu.icu/ability/arthas.html"/>
+    <updated>2024-09-22T12:30:34.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
-<p>全局搜索<strong>hopeTheme</strong></p>
+<p>🏡 <a href="https://arthas.aliyun.com/" target="_blank" rel="noopener noreferrer">Arthas（阿尔萨斯）</a><strong>官网</strong></p>
 </blockquote>
-<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
-  // ...省略
-  iconPrefix: "",
-  iconAssets: "iconify",
-  // ...省略
-});
-</code></pre></div><blockquote>
-<p><a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
-</blockquote>]]></summary>
+<hr>
+<h2>1.拷贝 arthas</h2>
+<div class="language-javascript" data-ext="js" data-title="js"><pre class="language-javascript"><code>curl <span class="token operator">-</span><span class="token constant">O</span> <span class="token literal-property property">https</span><span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>arthas<span class="token punctuation">.</span>aliyun<span class="token punctuation">.</span>com<span class="token operator">/</span>arthas<span class="token operator">-</span>boot<span class="token punctuation">.</span>jar
+</code></pre></div>]]></summary>
     <content type="html"><![CDATA[<blockquote>
-<p>全局搜索<strong>hopeTheme</strong></p>
-</blockquote>
-<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
-  // ...省略
-  iconPrefix: "",
-  iconAssets: "iconify",
-  // ...省略
-});
-</code></pre></div><blockquote>
-<p><a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
+<p>🏡 <a href="https://arthas.aliyun.com/" target="_blank" rel="noopener noreferrer">Arthas（阿尔萨斯）</a><strong>官网</strong></p>
 </blockquote>
 ]]></content>
+    <published>2024-09-22T12:30:34.000Z</published>
+  </entry>
+  <entry>
+    <title type="text"></title>
+    <id>https://www.chengxuyuandusu.icu/enact/modify.html</id>
+    <link href="https://www.chengxuyuandusu.icu/enact/modify.html"/>
+    <updated>2024-09-22T12:30:34.000Z</updated>
+    <summary type="html"><![CDATA[<blockquote>
+<p>全局搜索<strong>hopeTheme</strong> <a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
+</blockquote>
+<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
+  // ...省略
+  iconPrefix: "",
+  iconAssets: "iconify",
+  // ...省略
+});
+</code></pre></div>]]></summary>
+    <content type="html"><![CDATA[<blockquote>
+<p>全局搜索<strong>hopeTheme</strong> <a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
+</blockquote>
+<div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
+  // ...省略
+  iconPrefix: "",
+  iconAssets: "iconify",
+  // ...省略
+});
+</code></pre></div>]]></content>
     <published>2024-09-19T06:03:48.000Z</published>
   </entry>
 </feed>

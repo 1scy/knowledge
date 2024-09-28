@@ -5,7 +5,7 @@
 ## 1.拷贝 arthas
 
 ```js
-curl https://arthas.aliyun.com/arthas-boot.jar
+curl -O https://arthas.aliyun.com/arthas-boot.jar
 ```
 
 ## 2.其次需要知道查看的容器ID
@@ -25,7 +25,8 @@ docker cp arthas-boot.jar 容器ID:/
 ```js
  docker exec -it 容器ID /bin/bash 
 ```
-#### 可使用```ls```去查看是否存在 arthas-boot.jar
+
+#### 可使用```ll```去查看是否存在 arthas-boot.jar
 
 ## 5.启动
 

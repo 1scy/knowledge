@@ -6,10 +6,22 @@
     <link>https://www.chengxuyuandusu.icu/</link>
     <description>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </description>
     <language>zh-CN</language>
-    <pubDate>Sun, 22 Sep 2024 10:52:11 GMT</pubDate>
-    <lastBuildDate>Sun, 22 Sep 2024 10:52:11 GMT</lastBuildDate>
+    <pubDate>Sat, 28 Sep 2024 08:49:19 GMT</pubDate>
+    <lastBuildDate>Sat, 28 Sep 2024 08:49:19 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title></title>
+      <link>https://www.chengxuyuandusu.icu/ability/arthas.html</link>
+      <guid>https://www.chengxuyuandusu.icu/ability/arthas.html</guid>
+      <source url="https://www.chengxuyuandusu.icu/rss.xml"></source>
+      <description>🏡 Arthas（阿尔萨斯）官网 1.拷贝 arthas 2.其次需要知道查看的容器ID 3.拷贝arthas程序包到容器目录下 4.进入到容器目录 可使用ll去查看是否存在 arthas-boot.jar 5.启动 看到 Arthas的标志，表示arthas已经启动成功,并选择想要操作的进程序号</description>
+      <pubDate>Sun, 22 Sep 2024 12:30:34 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>🏡 <a href="https://arthas.aliyun.com/" target="_blank" rel="noopener noreferrer">Arthas（阿尔萨斯）</a><strong>官网</strong></p>
+</blockquote>
+]]></content:encoded>
+    </item>
     <item>
       <title></title>
       <link>https://www.chengxuyuandusu.icu/enact/modify.html</link>
@@ -18,7 +30,7 @@
       <description>全局搜索hopeTheme 需要的图标</description>
       <pubDate>Thu, 19 Sep 2024 06:03:48 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
-<p>全局搜索<strong>hopeTheme</strong></p>
+<p>全局搜索<strong>hopeTheme</strong> <a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
 </blockquote>
 <div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>export default hopeTheme({
   // ...省略
@@ -26,10 +38,7 @@
   iconAssets: "iconify",
   // ...省略
 });
-</code></pre></div><blockquote>
-<p><a href="https://icon-sets.iconify.design/logos/" target="_blank" rel="noopener noreferrer">需要的图标</a></p>
-</blockquote>
-]]></content:encoded>
+</code></pre></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
