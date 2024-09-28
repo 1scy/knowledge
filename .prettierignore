@@ -3,7 +3,7 @@
 # Vuepress Temp
 **/.vuepress/.temp/**
 # Vuepress Output
-dist/
+**dist/**
 
 # Node modules
 node_modules/
