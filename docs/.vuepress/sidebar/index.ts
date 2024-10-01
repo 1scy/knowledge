@@ -1,14 +1,16 @@
 import { sidebar } from "vuepress-theme-hope";
 
 import { aboutTheAuthor } from "./about-the-author.js";
-import { enacts } from "./enacts.js";
+import { frontEnact } from "./front-enact.js";
+import { backEndEnact } from "./back-end-enact.js";
 import { abilitys } from "./abilitys.js";
 import { openSourceProject } from "./open-source-project.js";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
   "/open-source-project/": openSourceProject,
-  "/enact/": enacts,
+  "/front-enact/": frontEnact,
+  "/back-end-enact/": backEndEnact,
   "/about-the-author/": aboutTheAuthor,
   "/ability/": abilitys,
   "/zhuanlan/": [

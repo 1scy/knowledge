@@ -1,17 +1,18 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  { text: "面试指南", icon: "java", link: "/home.md" },
-  { text: "开源项目", icon: "github", link: "/open-source-project/" },
-  { text: "技术碎片", icon: "logos:bigpanda", link: "/enact/" },
+  { text: "面试指南", icon: "logos:java", link: "/home.md" },
+  { text: "开源项目", icon: "logos:github-icon", link: "/open-source-project/" },
+  { text: "前端技术碎片", icon: "logos:bigpanda", link: "/front-enact/" },
+  { text: "后端技术碎片", icon: "logos:sherlock-icon", link: "/back-end-enact/" },
   {
-    text: "技能掌握",
+    text: "入职必知必会",
     icon: "logos:feathersjs",
     link: "/ability/",
   },
   {
     text: "知识星球",
-    icon: "planet",
+    icon: "logos:egghead",
     children: [
       {
         text: "星球介绍",
@@ -27,7 +28,7 @@ export default navbar([
   },
   {
     text: "网站相关",
-    icon: "about",
+    icon: "logos:sitepoint",
     children: [
       { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
       {

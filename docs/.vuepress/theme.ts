@@ -65,7 +65,7 @@ export default hopeTheme({
         // ],
       },
     },
-
+    copyCode: {}, // 开启代码复制
     blog: true,
 
     copyright: {
