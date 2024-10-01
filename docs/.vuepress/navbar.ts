@@ -16,17 +16,12 @@ export default navbar([
       {
         text: "星球介绍",
         icon: "about",
-        link: "/about-the-author/zhishixingqiu-two-years.md",
-      },
-      {
-        text: "星球专属优质专栏",
-        icon: "about",
-        link: "/zhuanlan/",
+        link: "/about-the-author/readme.md",
       },
       {
         text: "星球优质主题汇总",
         icon: "star",
-        link: "https://www.yuque.com/snailclimb/rpkqw1/ncxpnfmlng08wlf1",
+        link: "https://www.yuque.com/yuqueyonghuvg7acx/vwqzcq",
       },
     ],
   },

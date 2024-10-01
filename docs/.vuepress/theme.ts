@@ -20,7 +20,7 @@ export default hopeTheme({
     url: "https://www.chengxuyuandusu.icu/",
   },
 
-  // repo: "https://github.com/Snailclimb/JavaGuide",
+  // repo: "https://github.com/Snailclimb/DuSuGuide",
   docsDir: "docs",
   // 纯净模式：https://theme-hope.vuejs.press/zh/guide/interface/pure.html
   pure: true,
