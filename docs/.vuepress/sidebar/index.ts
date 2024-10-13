@@ -12,7 +12,7 @@ export default sidebar({
   "/front-enact/": frontEnact,
   "/back-end-enact/": backEndEnact,
   "/about-the-author/": aboutTheAuthor,
-  "/ability/": abilitys,
+  "/abilitys/": abilitys,
   "/zhuanlan/": [
 
   ],

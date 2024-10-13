@@ -8,7 +8,7 @@ export default navbar([
   {
     text: "入职必知必会",
     icon: "logos:feathersjs",
-    link: "/ability/",
+    link: "/abilitys/",
   },
   {
     text: "知识星球",
