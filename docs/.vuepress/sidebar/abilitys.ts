@@ -2,8 +2,8 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const abilitys = arraySidebar([
   {
-    text: "知识一",
+    text: "",
     link: "1",
-    icon: "logos:partytown-icon",
+    icon: "mdi:number-1-circle-outline",
   },
 ]);
