@@ -6,6 +6,12 @@ export const interview = arraySidebar([
       icon: "star",
       collapsible: true,
       prefix: "base/",
-      children: [],
+      children: [
+        {
+          text: "Java基础面试题",
+          icon: "about",
+          link: "/interview/basic.md",
+        },
+      ],
     },
 ]);
