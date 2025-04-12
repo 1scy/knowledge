@@ -28,6 +28,11 @@ export const abilitys = arraySidebar([
         link: "JDK包",
         icon: "mdi:number-3-circle-outline",
       },
+      {
+        text: "Docker镜像提取与加载",
+        link: "Docker镜像提取与加载",
+        icon: "mdi:number-4-circle-outline",
+      },
     ],
   },
 ]);
