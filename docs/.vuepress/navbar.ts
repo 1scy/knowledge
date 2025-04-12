@@ -1,6 +1,7 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
+  { text: "博客", icon: "logos:java", link: "/blog.md" },
   { text: "面试指南", icon: "logos:java", link: "/interview/" },
   { text: "开源项目", icon: "logos:github-icon", link: "/open-source-project/" },
   { text: "前端技术碎片", icon: "logos:bigpanda", link: "/front-enact/" },

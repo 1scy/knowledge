@@ -5,15 +5,15 @@ import theme from "./theme.js";
 export default defineUserConfig({
   dest: "./dist",
 
-  title: "DuSuGuide",
+  title: "ZiSu",
   description:
-    "「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 DuSuGuide！  ",
+    " 筹备中 ",
   lang: "zh-CN",
 
   head: [
     // meta
     ["meta", { name: "robots", content: "all" }],
-    ["meta", { name: "author", content: "Guide" }],
+    ["meta", { name: "author", content: "ZiSu" }],
     [
       "meta",
       {

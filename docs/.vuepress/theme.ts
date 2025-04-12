@@ -1,10 +1,11 @@
-import { getDirname, path } from "vuepress/utils";
+// import { getDirname, path } from "vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar/index.js";
+import * as path from "path";
 
-const __dirname = getDirname(import.meta.url);
+// const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
   hostname: "https://www.chengxuyuandusu.icu/",

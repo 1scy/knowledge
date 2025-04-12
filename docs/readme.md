@@ -1,10 +1,13 @@
 ---
 home: true
 icon: home
-title: Java 面试指南
+#layout: BlogHome
+title: 宝典库
 heroImage: /logo.svg
-heroText: DuSuGuide
-tagline: 「Java学习 + 面试指南」涵盖 Java 程序员需要掌握的核心知识
+heroText: ZiSu
+heroFullScreen: false
+tagline: 大杂烩涵盖多种技术教程
+
 actions:
   - text: 开始阅读
     link: /home.md
