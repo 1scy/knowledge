@@ -38,6 +38,11 @@ export const abilitys = arraySidebar([
         link: "部署RocketMQ",
         icon: "mdi:number-5-circle-outline",
       },
+      {
+        text: "部署redis",
+        link: "部署redis",
+        icon: "mdi:number-5-circle-outline",
+      },
     ],
   },
 ]);
