@@ -23,6 +23,11 @@ export const abilitys = arraySidebar([
         link: "docker-redis",
         icon: "mdi:number-2-circle-outline",
       },
+      {
+        text: "JDK包",
+        link: "JDK包",
+        icon: "mdi:number-3-circle-outline",
+      },
     ],
   },
 ]);

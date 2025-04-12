@@ -10,34 +10,34 @@ tagline: 大杂烩涵盖多种技术教程
 
 projects:
   - icon: project
-    name: 进阶之路
-    desc: 二哥的Java进阶之路
+    name: 筹备中
+    desc: 筹备中
     link: /home.md
 
   - icon: link
-    name: 知识星球
-    desc: 二哥的编程学习圈子
-    link: /zhishixingqiu/
+    name: 筹备中
+    desc: 筹备中
+    link: /home.md
 
   - icon: book
-    name: Java电子书下载
-    desc: Java程序员常读书单，附下载地址
-    link: /download/java.md
+    name: 筹备中
+    desc: 筹备中
+    link: /home.md
 
   - icon: article
-    name: 学习路线
-    desc: CS 学习指南
-    link: /xuexiluxian/
+    name: 筹备中
+    desc: 筹备中
+    link: /home.md
 
   - icon: friend
-    name: 面渣逆袭
-    desc: 面试找工作前必刷
-    link: /sidebar/sanfene/nixi.md
+    name: 筹备中
+    desc: 筹备中
+    link: /home.md
 
   - icon: zhongyaotishi
-    name: 破解合集
-    desc: 程序员常用工具聚集地
-    link: /nice-article/itmind/
+    name: 筹备中
+    desc: 筹备中
+    link: /home.md
 
 
 footer: |-

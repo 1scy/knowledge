@@ -2,8 +2,8 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   { text: "博客", icon: "logos:java", link: "/blog.md" },
-  { text: "面试指南", icon: "logos:java", link: "/interview/" },
-  { text: "开源项目", icon: "logos:github-icon", link: "/open-source-project/" },
+  // { text: "面试指南", icon: "logos:java", link: "/interview/" },
+  // { text: "开源项目", icon: "logos:github-icon", link: "/open-source-project/" },
   { text: "前端技术碎片", icon: "logos:bigpanda", link: "/front-enact/" },
   { text: "后端技术碎片", icon: "logos:sherlock-icon", link: "/back-end-enact/" },
   {
@@ -11,11 +11,11 @@ export default navbar([
     icon: "logos:feathersjs",
     link: "/abilitys/",
   },
-  {
-    text: "文章阅读",
-    icon: "logos:fresh",
-    link: "/good_article/",
-  },
+  // {
+  //   text: "文章阅读",
+  //   icon: "logos:fresh",
+  //   link: "/good_article/",
+  // },
   {
     text: "知识星球",
     icon: "logos:egghead",
