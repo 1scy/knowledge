@@ -33,6 +33,11 @@ export const abilitys = arraySidebar([
         link: "Docker镜像提取与加载",
         icon: "mdi:number-4-circle-outline",
       },
+      {
+        text: "部署RocketMQ",
+        link: "部署RocketMQ",
+        icon: "mdi:number-5-circle-outline",
+      },
     ],
   },
 ]);
