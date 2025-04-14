@@ -1,12 +1,13 @@
 # 部署redis
-
- 部署Redis容器并配置持久化存储和自定义配置文件
- 该命令启动Redis容器，包含以下关键配置：
- - 端口映射：将容器6379端口暴露到主机
- - 数据持久化：通过挂载卷保存数据到宿主机/opt/redis/data目录
- - 配置文件挂载：使用宿主机的/opt/redis/conf/redis.conf配置文件
- - 自动重启策略：除非手动停止，否则容器随Docker服务自动重启
-
+### 参数说明：
+1. `-d`：后台运行容器
+2. `--name redis`：指定容器名称为"redis"
+3. `-p 6379:6379`：将容器6379端口映射到宿主机同端口
+4. `--restart unless-stopped`：设置除非手动停止否则自动重启策略
+5. `-v $PWD/conf:/etc/conf`：挂载本地配置目录到容器配置路径
+6. `-v $PWD/data:/data`：挂载本地数据目录到容器数据存储路径
+7. `redis:6.2.5`：指定使用的Redis镜像版本
+8. `redis-server /etc/conf/redis.conf`：指定使用挂载的配置文件启动服务
 
 ```sh
 docker run \
@@ -14,9 +15,14 @@ docker run \
 --name redis \
 -p 6379:6379 \
 --restart unless-stopped \
--v /opt/redis/data:/data \
--v /opt/redis/conf/redis.conf:/etc/redis/redis.conf \
-redis:latest \
-redis-server /etc/redis/redis.conf
+-v $PWD/conf:/etc/conf \
+-v $PWD/data:/data \
+redis:6.2.5 \
+redis-server /etc/conf/redis.conf \
 ```
-### [配置文件参考](https://redis.io/docs/latest/operate/oss_and_stack/management/config/)
+
+### 配置文件说明：
+- [配置文件参考文档](https://redis.io/docs/latest/operate/oss_and_stack/management/config/)  
+- 若需快速获取配置模板，可先创建临时容器并复制配置文件；
+  
+
