@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const abilitys = arraySidebar([
 
@@ -42,6 +42,20 @@ export const abilitys = arraySidebar([
         text: "部署redis",
         link: "部署redis",
         icon: "mdi:number-5-circle-outline",
+      },
+    ],
+  },
+
+  {
+    text: "配置文件",
+    icon: "star",
+    collapsible: true,
+    prefix: "配置文件/",
+    children: [
+      {
+        text: "nacos文件",
+        link: "nacos",
+        icon: "mdi:number-0-circle-outline",
       },
     ],
   },
