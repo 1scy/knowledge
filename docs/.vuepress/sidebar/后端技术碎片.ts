@@ -34,13 +34,43 @@ export const 后端技术碎片 = arraySidebar([
             },
 
             {
-                text: "kubectl常用命令",
+                text: "kubectl",
                 collapsible: true,
                 children: [
                     {
                         text: "kubectl常用命令",
                         link: "kubectl/kubectl常用命令",
                         icon: "mdi:number-1-circle-outline",
+                    },
+                ]
+            },
+            {
+                text: "数据库",
+                collapsible: true,
+                children: [
+                    {
+                        text: "Mysql",
+                        collapsible: true,
+                        children: [
+                            {
+                                text: "Explain",
+                                link: "数据库/Mysql/Explain",
+                                icon: "mdi:number-1-circle-outline",
+                            },
+                        ]
+
+                    },
+                    {
+                        text: "Oracle",
+                        collapsible: true,
+                        children: [
+                            {
+                                text: "Explain",
+                                link: "数据库/Oracle/Explain",
+                                icon: "mdi:number-1-circle-outline",
+                            },
+                        ]
+
                     },
                 ]
             },
