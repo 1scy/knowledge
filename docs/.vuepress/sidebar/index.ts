@@ -7,6 +7,7 @@ import { 后端技术碎片 } from "./后端技术碎片.js";
 import { 必知必会 } from "./必知必会.js";
 import { 好文分享 } from "./好文分享.js";
 import { 开源项目 } from "./开源项目.js";
+import {代理} from "./代理.js";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -17,6 +18,7 @@ export default sidebar({
   "/关于作者/": 关于作者,
   "/必知必会/": 必知必会,
   "/好文分享/": 好文分享,
+  "/代理/": 代理,
   "/zhuanlan/": [
 
   ],

@@ -17,6 +17,11 @@ export default navbar([
         link: "/必知必会/",
       },
       {
+        text: "代理",
+        icon: "logos:fresh",
+        link: "/代理/",
+      },
+      {
         text: "文章阅读",
         icon: "logos:fresh",
         link: "/好文分享/",
