@@ -1,4 +1,4 @@
-# Kubernetes 以下是排查和解决方法：
+# Kubernetes 排查和解决方法：
 
 ### 说明
 

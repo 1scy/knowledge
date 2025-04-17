@@ -22,14 +22,27 @@ export const 后端技术碎片 = arraySidebar([
                 icon: "mdi:number-1-circle-outline",
             },
             {
-                text: "Docker镜像提取与加载",
-                link: "Docker镜像提取与加载",
-                icon: "mdi:number-2-circle-outline",
+                text: "Docker",
+                collapsible: true,
+                children: [
+                    {
+                        text: "Docker镜像提取",
+                        link: "Docker/Docker镜像提取与加载",
+                        icon: "mdi:number-1-circle-outline",
+                    },
+                ]
             },
+
             {
                 text: "kubectl常用命令",
-                link: "kubectl常用命令",
-                icon: "mdi:number-3-circle-outline",
+                collapsible: true,
+                children: [
+                    {
+                        text: "kubectl常用命令",
+                        link: "kubectl/kubectl常用命令",
+                        icon: "mdi:number-1-circle-outline",
+                    },
+                ]
             },
         ],
     },
