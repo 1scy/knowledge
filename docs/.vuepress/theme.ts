@@ -17,7 +17,7 @@ export default hopeTheme({
   // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
 
   author: {
-    name: "DuSu",
+    name: "ZiSu",
     url: "https://www.chengxuyuandusu.icu/",
   },
 
@@ -45,6 +45,7 @@ export default hopeTheme({
   },
 
   plugins: {
+    catalog: true,
     components: {
       rootComponents: {
         // https://plugin-components.vuejs.press/zh/guide/utilities/notice.html#%E7%94%A8%E6%B3%95
@@ -70,7 +71,7 @@ export default hopeTheme({
     blog: true,
 
     copyright: {
-      author: "DuSuGuide(chengxuyuandusu.icu)",
+      author: "ZiSuGuide(chengxuyuandusu.icu)",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,

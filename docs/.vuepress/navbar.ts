@@ -18,7 +18,7 @@ export default navbar([
       },
       {
         text: "代理",
-        icon: "logos:fresh",
+        icon: "logos:internetexplorer",
         link: "/代理/",
       },
       {
