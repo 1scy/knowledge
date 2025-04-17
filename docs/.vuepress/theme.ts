@@ -35,7 +35,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Category", "Tag", "Original", "Word", "ReadingTime"],
 
   blog: {
-    intro: "/about-the-author/",
+    intro: "/关于作者/",
     sidebarDisplay: "mobile",
     medias: {
       // Zhihu: "https://www.zhihu.com/people/javaguide",

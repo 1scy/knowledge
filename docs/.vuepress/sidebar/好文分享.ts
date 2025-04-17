@@ -1,5 +1,5 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const goodArticle = arraySidebar([
+export const 好文分享 = arraySidebar([
 
 ]);

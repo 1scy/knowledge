@@ -1,6 +1,6 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const interview = arraySidebar([
+export const 面经 = arraySidebar([
     {
       text: "必看",
       icon: "star",
@@ -10,7 +10,7 @@ export const interview = arraySidebar([
         {
           text: "Java基础面试题",
           icon: "about",
-          link: "/interview/basic.md",
+          link: "/面经/Java基础面试题.md",
         },
       ],
     },
