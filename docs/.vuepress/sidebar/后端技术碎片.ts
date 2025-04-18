@@ -49,6 +49,12 @@ export const 后端技术碎片 = arraySidebar([
                 collapsible: true,
                 children: [
                     {
+                        text: "常见的数据访问方法",
+                        collapsible: true,
+                        link: "数据库/常见的数据访问方法",
+                        icon: "logos:angellist",
+                    },
+                    {
                         text: "Mysql",
                         collapsible: true,
                         children: [
