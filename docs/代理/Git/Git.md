@@ -22,6 +22,15 @@ git config --global https.proxy 127.0.0.1:7890
 git config -l
 ```
 
+### 查看代理设置
+
+以下命令查看当前的代理设置：
+
+```bash
+git config --global --get http.proxy
+git config --global --get https.proxy
+```
+
 ### 取消代理设置
 
 如果需要取消代理设置，可以使用以下命令：
