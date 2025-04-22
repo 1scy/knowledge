@@ -17,9 +17,15 @@ export const 后端技术碎片 = arraySidebar([
         prefix: "运维实践手册/",
         children: [
             {
-                text: "Arthas（阿尔萨斯）",
-                link: "arthas",
-                icon: "mdi:number-1-circle-outline",
+                text: "工具",
+                collapsible: true,
+                children: [
+                    {
+                        text: "Arthas（阿尔萨斯）",
+                        link: "工具/arthas",
+                        icon: "mdi:number-1-circle-outline",
+                    },
+                ]
             },
             {
                 text: "Docker",
@@ -40,6 +46,17 @@ export const 后端技术碎片 = arraySidebar([
                     {
                         text: "kubectl常用命令",
                         link: "kubectl/kubectl常用命令",
+                        icon: "mdi:number-1-circle-outline",
+                    },
+                ]
+            },
+            {
+                text: "Linux",
+                collapsible: true,
+                children: [
+                    {
+                        text: "Linux常用命令",
+                        link: "Linux/Linux常用命令",
                         icon: "mdi:number-1-circle-outline",
                     },
                 ]
