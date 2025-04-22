@@ -92,6 +92,11 @@ export const 后端技术碎片 = arraySidebar([
                                 link: "数据库/Oracle/Explain",
                                 icon: "mdi:number-1-circle-outline",
                             },
+                            {
+                                text: "语法",
+                                link: "数据库/Oracle/语法",
+                                icon: "mdi:number-2-circle-outline",
+                            },
                         ]
 
                     },
