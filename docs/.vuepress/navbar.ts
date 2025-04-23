@@ -12,21 +12,48 @@ export default navbar([
     icon: "logos:feathersjs",
     children: [
       {
-        text: "必知必会",
+        text: "框架使用",
         icon: "logos:arangodb-icon",
-        link: "/必知必会/",
+        link: "/必知必会/框架使用/",
       },
       {
         text: "代理",
         icon: "logos:internetexplorer",
-        link: "/代理/",
+        link: "/必知必会/代理/",
       },
       {
-        text: "文章阅读",
+        text: "好文分享",
         icon: "logos:fresh",
-        link: "/好文分享/",
+        link: "/必知必会/好文分享/",
       },
-    ],  },
+    ],
+  },
+  {
+    text: "问题合集",
+    icon: "logos:feathersjs",
+    children: [
+      {
+        text: "后端问题",
+        icon: "logos:arangodb-icon",
+        link: "/问题合集/后端问题/",
+      },
+      {
+        text: "前端问题",
+        icon: "logos:internetexplorer",
+        link: "/问题合集/前端问题/",
+      },
+      {
+        text: "运维问题",
+        icon: "logos:fresh",
+        link: "/问题合集/运维问题/",
+      },
+      {
+        text: "非开发问题",
+        icon: "logos:fresh",
+        link: "/问题合集/非开发问题/",
+      },
+    ],
+  },
   {
     text: "知识星球",
     icon: "logos:egghead",
