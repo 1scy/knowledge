@@ -39,8 +39,8 @@ docker-run.sh:
 docker run -d  \
 	--name=report \
 	-p 48085:48084 \
-	-v /opt/docker/report/data:/home \
-	-v /opt/docker/report/logs:/root/logs \
+	-v $PWD/data:/home \
+	-v $PWD/logs:/root/logs \
       zisu/openjdk:17
 ```
 
