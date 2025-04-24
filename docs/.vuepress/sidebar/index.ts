@@ -9,6 +9,7 @@ import { 好文分享 } from "./好文分享.js";
 import { 开源项目 } from "./开源项目.js";
 import {代理} from "./代理.js";
 import {问题合集} from "./问题合集.js";
+import {运维问题} from "./运维问题.js";
 import {框架使用} from "./框架使用.js";
 
 export default sidebar({
@@ -21,8 +22,9 @@ export default sidebar({
   "/必知必会/": 必知必会,
   "/必知必会/好文分享/": 好文分享,
   "/必知必会/代理/": 代理,
-  "/问题合集/": 问题合集,
   "/必知必会/框架使用/": 框架使用,
+  "/问题合集/": 问题合集,
+  "/问题合集/运维问题": 运维问题,
   "/zhuanlan/": [
 
   ],
