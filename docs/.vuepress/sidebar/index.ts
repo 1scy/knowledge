@@ -11,6 +11,8 @@ import {代理} from "./代理.js";
 import {问题合集} from "./问题合集.js";
 import {运维问题} from "./运维问题.js";
 import {框架使用} from "./框架使用.js";
+import {笔记碎片} from "./笔记碎片.js";
+import {快速工具} from "./快速工具.js";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -25,6 +27,8 @@ export default sidebar({
   "/必知必会/框架使用/": 框架使用,
   "/问题合集/": 问题合集,
   "/问题合集/运维问题": 运维问题,
+  "/笔记碎片/": 笔记碎片,
+  "/快速工具/": 快速工具,
   "/zhuanlan/": [
 
   ],

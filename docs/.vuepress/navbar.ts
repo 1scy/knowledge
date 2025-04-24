@@ -54,6 +54,8 @@ export default navbar([
       },
     ],
   },
+  { text: "笔记碎片", icon: "logos:sherlock-icon", link: "/笔记碎片/" },
+  { text: "快速工具", icon: "logos:sherlock-icon", link: "/快速工具/" },
   {
     text: "知识星球",
     icon: "logos:egghead",
