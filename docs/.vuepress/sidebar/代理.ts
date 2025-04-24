@@ -11,6 +11,11 @@ export const 代理 = arraySidebar([
                 icon: "about",
                 link: "/必知必会/代理/Git/Git.md",
             },
+            {
+                text: "Sourcetree",
+                icon: "about",
+                link: "/必知必会/代理/Git/Sourcetree.md",
+            },
         ],
     },
     {
