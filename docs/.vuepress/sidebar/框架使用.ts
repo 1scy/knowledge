@@ -10,7 +10,7 @@ export const 框架使用 = arraySidebar([
             {
                 text: "Cache快速入门",
                 icon: "about",
-                link: "/必知必会/Cache/Cache快速入门.md",
+                link: "/必知必会/框架使用/Cache/Cache快速入门.md",
             },
         ],
     },
