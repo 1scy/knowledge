@@ -136,6 +136,11 @@ export const 后端技术碎片 = arraySidebar([
                 link: "Nacos容器部署",
                 icon: "mdi:number-4-circle-outline",
             },
+            {
+                text: "1Panel容器部署",
+                link: "1Panel容器部署",
+                icon: "mdi:number-5-circle-outline",
+            },
 
         ],
     },
