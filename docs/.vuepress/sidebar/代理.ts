@@ -9,7 +9,7 @@ export const 代理 = arraySidebar([
             {
                 text: "Git",
                 icon: "about",
-                link: "/代理/Git/Git.md",
+                link: "/必知必会/代理/Git/Git.md",
             },
         ],
     },
@@ -21,7 +21,19 @@ export const 代理 = arraySidebar([
             {
                 text: "工具",
                 icon: "about",
-                link: "/代理/工具/Steamcommunity.md",
+                link: "/必知必会/代理/工具/Steamcommunity.md",
+            },
+        ],
+    },
+    {
+        text: "VPN",
+        icon: "chat",
+        collapsible: true,
+        children: [
+            {
+                text: "ikuuu",
+                icon: "about",
+                link: "/必知必会/代理/VPN/ikuuu.md",
             },
         ],
     },
