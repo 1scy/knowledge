@@ -13,4 +13,16 @@ export const 运维问题 = arraySidebar([
             },
         ],
     },
+    {
+        text: "EasyDeploy插件使用",
+        icon: "experience",
+        collapsible: true,
+        children: [
+            {
+                text: "EasyDeploy插件使用",
+                icon: "about",
+                link: "/问题合集/运维问题/EasyDeploy插件使用.md",
+            },
+        ],
+    },
 ]);
