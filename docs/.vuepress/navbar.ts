@@ -30,35 +30,35 @@ export default navbar([
   },
   {
     text: "问题合集",
-    icon: "logos:feathersjs",
+    icon: "logos:browserslist",
     children: [
       {
         text: "后端问题",
-        icon: "logos:arangodb-icon",
+        icon: "logos:intellij-idea",
         link: "/问题合集/后端问题/",
       },
       {
         text: "前端问题",
-        icon: "logos:internetexplorer",
+        icon: "logos:appcode",
         link: "/问题合集/前端问题/",
       },
       {
         text: "运维问题",
-        icon: "logos:fresh",
+        icon: "logos:solidjs-icon",
         link: "/问题合集/运维问题/",
       },
       {
         text: "非开发问题",
-        icon: "logos:fresh",
+        icon: "logos:broccoli",
         link: "/问题合集/非开发问题/",
       },
     ],
   },
-  { text: "笔记碎片", icon: "logos:sherlock-icon", link: "/笔记碎片/" },
-  { text: "快速工具", icon: "logos:sherlock-icon", link: "/快速工具/" },
+  { text: "笔记碎片", icon: "logos:blueprint", link: "/笔记碎片/" },
+  { text: "快速工具", icon: "logos:google-play-console-icon", link: "/快速工具/" },
   {
     text: "知识星球",
-    icon: "logos:egghead",
+    icon: "logos:wmr",
     children: [
       {
         text: "星球介绍",
@@ -84,4 +84,5 @@ export default navbar([
       },
     ],
   },
+  { text: "娱乐生活", icon: "logos:codeigniter-icon", link: "/娱乐生活/" },
 ]);

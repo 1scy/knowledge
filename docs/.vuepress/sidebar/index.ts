@@ -13,6 +13,7 @@ import {运维问题} from "./运维问题.js";
 import {框架使用} from "./框架使用.js";
 import {笔记碎片} from "./笔记碎片.js";
 import {快速工具} from "./快速工具.js";
+import {娱乐生活} from "./娱乐生活.js";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -29,6 +30,7 @@ export default sidebar({
   "/问题合集/运维问题": 运维问题,
   "/笔记碎片/": 笔记碎片,
   "/快速工具/": 快速工具,
+  "/娱乐生活/": 娱乐生活,
   "/zhuanlan/": [
 
   ],
