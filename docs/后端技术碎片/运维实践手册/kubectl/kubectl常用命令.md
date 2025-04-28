@@ -1,5 +1,8 @@
 # Kubernetes 排查和解决方法：
 
+## 参考文档
+[Kubernetes 博客文档](https://kubernetes.io/zh-cn/docs/reference/kubectl/quick-reference/)
+
 ### 说明
 
 - `<pod-name>`：替换为实际的 Pod 名称。

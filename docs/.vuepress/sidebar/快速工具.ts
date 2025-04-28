@@ -11,4 +11,9 @@ export const 快速工具 = arraySidebar([
         icon: "experience",
         link: "/快速工具/在线Java代码生成器.md",
     },
+    {
+        text: "drawio画图工具",
+        icon: "experience",
+        link: "/快速工具/drawio画图工具.md",
+    },
 ]);
