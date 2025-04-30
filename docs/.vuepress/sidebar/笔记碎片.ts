@@ -50,4 +50,17 @@ export const 笔记碎片 = arraySidebar([
             },
         ],
     },
+    {
+        text: "ThreadLocal",
+        icon: "experience",
+        collapsible: true,
+        prefix: "/笔记碎片/并发/",
+        children: [
+            {
+                text: "ThreadLocal的简单使用",
+                icon: "about",
+                link: "ThreadLocal/ThreadLocal的简单使用.md",
+            },
+        ],
+    },
 ]);
