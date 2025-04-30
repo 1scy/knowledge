@@ -112,3 +112,14 @@ public class AnotherService {
     }
 }
 ```
+
+**区别：**
+
+| 特性         | `execute(Runnable task)`                    | `submit()`                                          |
+| :----------- | :------------------------------------------ | :-------------------------------------------------- |
+| 所属接口     | `Executor`                                  | `ExecutorService`                                   |
+| 接受任务类型 | 仅 `Runnable`                               | `Runnable` 或 `Callable`                            |
+| 返回值       | `void`                                      | `Future<?>` (`Runnable`) 或 `Future<T>` (`Callable`) |
+| 异常处理     | 由线程池或线程的 Handler 处理，调用者不易感知和处理 | 异常被封装在 `Future` 中，调用 `get()` 时抛出，易于捕获 |
+| 获取结果     | 不支持                                      | 支持 (通过 `Future.get()`)                          |
+| 适用场景     | “即发即弃”的任务，不关心执行结果和内部异常    | 需要获取任务执行结果、检查状态、取消任务或在调用点处理任务内部异常 |
