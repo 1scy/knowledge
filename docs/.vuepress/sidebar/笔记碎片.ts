@@ -43,6 +43,11 @@ export const 笔记碎片 = arraySidebar([
                 icon: "about",
                 link: "CompletableFuture/CompletableFuture异步回调处理.md",
             },
+            {
+                text: "CompletableFuture多任务组合处理",
+                icon: "about",
+                link: "CompletableFuture/CompletableFuture多任务组合处理.md",
+            },
         ],
     },
 ]);
