@@ -13,4 +13,16 @@ export const 笔记碎片 = arraySidebar([
             },
         ],
     },
+    {
+        text: "@Asycn失效场景",
+        icon: "experience",
+        collapsible: true,
+        children: [
+            {
+                text: "@Asycn失效场景",
+                icon: "about",
+                link: "/笔记碎片/@Asycn/@Asycn失效场景.md",
+            },
+        ],
+    },
 ]);
