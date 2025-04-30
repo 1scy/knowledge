@@ -1,6 +1,7 @@
 # Kubernetes 排查和解决方法：
 
 ## 参考文档
+
 [Kubernetes 博客文档](https://kubernetes.io/zh-cn/docs/reference/kubectl/quick-reference/)
 
 ### 说明
@@ -43,3 +44,10 @@ kubectl logs <pod-name> -n <namespace>
 kubectl logs yudao-module-trade-7f68449b68-wx6qp -n default
 ```
 
+### 4. **查看事件**
+
+Kubernetes 事件会保留一段时间（默认 1 小时），可以通过以下命令查看集群中的事件：
+
+```bash
+kubectl get events -n default
+```
