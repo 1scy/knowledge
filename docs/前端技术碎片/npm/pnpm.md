@@ -1,4 +1,8 @@
-# pnpm
+---
+title: pnpm
+category: npm
+tag: npm
+---
 
 **pnpm**是一个快速、零配置的包管理工具，它的主要功能是用于管理项目中的依赖包，它的优点是：
 

@@ -24,7 +24,7 @@ export default hopeTheme({
   // repo: "https://github.com/Snailclimb/DuSuGuide",
   docsDir: "docs",
   // 纯净模式：https://theme-hope.vuejs.press/zh/guide/interface/pure.html
-  pure: true,
+  pure: false,
   breadcrumb: false,
   navbar,
   sidebar,

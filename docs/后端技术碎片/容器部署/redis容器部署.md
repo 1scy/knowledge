@@ -1,4 +1,10 @@
-# 部署redis
+---
+title: 部署redis
+category: docker
+tag: docker
+---
+
+
 ### 参数说明：
 1. `-d`：后台运行容器
 2. `--name redis`：指定容器名称为"redis"

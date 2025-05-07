@@ -1,4 +1,9 @@
-# 1Panel 使用
+---
+title: 1Panel 使用
+category: docker
+tag: docker
+---
+
 
 ::: info 相关信息
 1Panel 命令：[命令行工具](https://1panel.cn/docs/installation/cli/)
