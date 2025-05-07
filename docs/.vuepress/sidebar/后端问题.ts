@@ -14,4 +14,22 @@ export const 后端问题 = arraySidebar([
             },
         ],
     },
+    {
+        text: "Mybatis",
+        icon: "experience",
+        collapsible: true,
+        prefix: "/问题合集/后端问题/Mybatis/",
+        children: [
+            {
+                text: "MyBatisPlus 查询总数与实际MySQL总数不一致",
+                icon: "about",
+                link: "MyBatisPlus 查询总数与实际MySQL总数不一致.md",
+            },
+            {
+                text: "MybatisPlus分页总数total为0",
+                icon: "about",
+                link: "MybatisPlus分页总数total为0.md",
+            },
+        ],
+    },
 ]);
