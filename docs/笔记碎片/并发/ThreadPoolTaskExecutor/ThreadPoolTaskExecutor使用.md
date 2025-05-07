@@ -1,5 +1,9 @@
-# ThreadPoolTaskExecutor使用
-
+---
+title: ThreadPoolTaskExecutor使用
+category: 并发
+tag: 并发
+---
+ 
 
 `ThreadPoolTaskExecutor` 是 Spring 框架提供的一个非常有用的工具，它是 `TaskExecutor` 接口的一个实现，用于通过线程池来执行异步任务。使用线程池可以有效地管理线程的生命周期，避免频繁地创建和销毁线程带来的开销，从而提高应用程序的性能和资源利用率。
 

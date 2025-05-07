@@ -1,4 +1,9 @@
-# CompletableFuture异步回调处理
+---
+title: CompletableFuture异步回调处理
+category: 并发
+tag: 并发
+---
+ 
 
 如何使用 Java 中的 `CompletableFuture` 来实现“异步回调处理”。
 

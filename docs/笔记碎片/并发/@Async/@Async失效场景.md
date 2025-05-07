@@ -1,4 +1,9 @@
-#  @Asycn失效场景
+---
+title: Async失效场景
+category: 并发
+tag: 并发
+---
+  
 
 解释 `@Async` 注解异步失效的常见场景。
 

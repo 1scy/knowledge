@@ -1,5 +1,9 @@
-# ThreadLocal的简单使用
-
+---
+title: ThreadLocal的简单使用
+category: 并发
+tag: 并发
+---
+ 
 
 ::: info
 ### `ThreadLocal` 的核心原理 (简化版)

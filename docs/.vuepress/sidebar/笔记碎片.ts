@@ -15,15 +15,15 @@ export const 笔记碎片 = arraySidebar([
         ],
     },
     {
-        text: "@Asycn",
+        text: "@Async",
         icon: "experience",
         collapsible: true,
         prefix: "/笔记碎片/并发/",
         children: [
             {
-                text: "@Asycn失效场景",
+                text: "@Async失效场景",
                 icon: "about",
-                link: "@Asycn/@Asycn失效场景.md",
+                link: "@Async/@Async失效场景.md",
             },
         ],
     },
@@ -60,6 +60,19 @@ export const 笔记碎片 = arraySidebar([
                 text: "ThreadLocal的简单使用",
                 icon: "about",
                 link: "ThreadLocal/ThreadLocal的简单使用.md",
+            },
+        ],
+    },
+    {
+        text: "事务",
+        icon: "experience",
+        collapsible: true,
+        prefix: "/笔记碎片/并发/",
+        children: [
+            {
+                text: "TransactionSynchronizationManager使用",
+                icon: "about",
+                link: "TransactionSynchronizationManager/TransactionSynchronizationManager使用.md",
             },
         ],
     },

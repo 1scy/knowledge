@@ -1,4 +1,8 @@
-# CompletableFuture创建异步任务
+---
+title: CompletableFuture创建异步任务
+category: 并发
+tag: 并发
+---
 
 
 `CompletableFuture` **创建异步任务**。

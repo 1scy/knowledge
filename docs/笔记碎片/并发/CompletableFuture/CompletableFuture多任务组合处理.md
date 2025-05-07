@@ -1,4 +1,8 @@
-# CompletableFuture多任务组合处理
+---
+title: CompletableFuture多任务组合处理
+category: 并发
+tag: 并发
+---
 
 
 `CompletableFuture` 除了处理单个异步任务外，其强大的能力在于可以方便地组合（Compose）和协调（Combine）多个异步任务。这使得处理复杂的异步流程变得更加容易和可读。
