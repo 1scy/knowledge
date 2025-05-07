@@ -5,7 +5,7 @@ export const 笔记碎片 = arraySidebar([
         text: "Java",
         icon: "experience",
         collapsible: true,
-        prefix: "/笔记碎片/Java/并发/",
+        prefix: "/笔记碎片/Java/",
         children: [
             {
                 text: "ThreadPoolTaskExecutor",
@@ -15,7 +15,7 @@ export const 笔记碎片 = arraySidebar([
                     {
                         text: "ThreadPoolTaskExecutor使用",
                         icon: "about",
-                        link: "ThreadPoolTaskExecutor/ThreadPoolTaskExecutor使用.md",
+                        link: "并发/ThreadPoolTaskExecutor/ThreadPoolTaskExecutor使用.md",
                     },
                 ],
             },
@@ -27,7 +27,7 @@ export const 笔记碎片 = arraySidebar([
                     {
                         text: "@Async失效场景",
                         icon: "about",
-                        link: "@Async/@Async失效场景.md",
+                        link: "并发/@Async/@Async失效场景.md",
                     },
                 ],
             },
@@ -39,17 +39,17 @@ export const 笔记碎片 = arraySidebar([
                     {
                         text: "CompletableFuture创建异步任务",
                         icon: "about",
-                        link: "CompletableFuture/CompletableFuture创建异步任务.md",
+                        link: "并发/CompletableFuture/CompletableFuture创建异步任务.md",
                     },
                     {
                         text: "CompletableFuture异步回调处理",
                         icon: "about",
-                        link: "CompletableFuture/CompletableFuture异步回调处理.md",
+                        link: "并发/CompletableFuture/CompletableFuture异步回调处理.md",
                     },
                     {
                         text: "CompletableFuture多任务组合处理",
                         icon: "about",
-                        link: "CompletableFuture/CompletableFuture多任务组合处理.md",
+                        link: "并发/CompletableFuture/CompletableFuture多任务组合处理.md",
                     },
                 ],
             },
@@ -61,7 +61,7 @@ export const 笔记碎片 = arraySidebar([
                     {
                         text: "ThreadLocal的简单使用",
                         icon: "about",
-                        link: "ThreadLocal/ThreadLocal的简单使用.md",
+                        link: "并发/ThreadLocal/ThreadLocal的简单使用.md",
                     },
                 ],
             },
@@ -73,7 +73,7 @@ export const 笔记碎片 = arraySidebar([
                     {
                         text: "TransactionSynchronizationManager使用",
                         icon: "about",
-                        link: "TransactionSynchronizationManager/TransactionSynchronizationManager使用.md",
+                        link: "并发/TransactionSynchronizationManager/TransactionSynchronizationManager使用.md",
                     },
                 ],
             },
