@@ -92,4 +92,23 @@ export const 笔记碎片 = arraySidebar([
         ],
     },
 
+    {
+        text: "Docker",
+        icon: "experience",
+        collapsible: true,
+        prefix: "/笔记碎片/Docker/",
+        children: [
+            {
+                text: "部署 Ollama",
+                icon: "about",
+                link: "大模型/部署 Ollama.md",
+            },
+            {
+                text: "部署 deepseek",
+                icon: "about",
+                link: "大模型/部署 deepseek.md",
+            },
+        ],
+    },
+
 ]);
