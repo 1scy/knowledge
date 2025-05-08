@@ -77,6 +77,18 @@ export const 笔记碎片 = arraySidebar([
                     },
                 ],
             },
+            {
+                text: "二进制日志Binlog",
+                icon: "experience",
+                collapsible: true,
+                children: [
+                    {
+                        text: "二进制日志Binlog",
+                        icon: "about",
+                        link: "数据库/二进制日志Binlog.md",
+                    },
+                ],
+            },
         ],
     },
 
