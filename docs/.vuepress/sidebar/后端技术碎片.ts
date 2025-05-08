@@ -116,6 +116,12 @@ export const 后端技术碎片 = arraySidebar([
         prefix: "容器部署/",
         children: [
             {
+                text: "Docker容器部署",
+                link: "Docker容器部署",
+                icon: "mdi:number-1-circle-outline",
+            },
+
+            {
                 text: "JDK包容器部署",
                 link: "JDK包容器部署",
                 icon: "mdi:number-1-circle-outline",
